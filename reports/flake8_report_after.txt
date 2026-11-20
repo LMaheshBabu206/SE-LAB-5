@@ -1,0 +1,4 @@
+Command: python -m flake8 domain_ssl_monitor.py
+Captured from the user's PowerShell run on 2026-11-20.
+
+No output was produced by Flake8, indicating that no Flake8 violations were reported.
