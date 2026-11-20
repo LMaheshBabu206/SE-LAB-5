@@ -34,9 +34,17 @@ python domain_ssl_monitor.py
 python -m pytest -v
 ```
 
-## Static analysis commands
+## Static analysis results (captured 20 November 2026)
 
-See `commands.txt` for commands that save before/after reports. The `*_before.txt` and `*_after.txt` files should be generated on the student's machine with the installed versions of Pylint, Bandit and Flake8; do not replace these with invented results.
+The terminal outputs supplied for this submission are saved in the `reports/` folder.
+
+| Tool | Before fixes | After fixes |
+|---|---:|---:|
+| Pylint | 5.43/10 | 10.00/10 |
+| Bandit | 5 findings (2 low, 2 medium, 1 high) | 0 findings |
+| Flake8 | 7 violations | 0 violations |
+
+The corrected implementation also passed 13 automated tests. The reports are captured outputs from the student's local PowerShell execution.
 
 ## Security note
 
