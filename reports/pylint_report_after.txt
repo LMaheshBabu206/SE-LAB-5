@@ -1,0 +1,5 @@
+Command: python -m pylint domain_ssl_monitor.py
+Captured from the user's PowerShell run on 2026-11-20.
+
+------------------------------------
+Your code has been rated at 10.00/10
