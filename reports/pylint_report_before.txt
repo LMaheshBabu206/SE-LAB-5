@@ -1,0 +1,23 @@
+Command: python -m pylint domain_ssl_monitor_before.py
+Captured from the user's PowerShell run on 2026-11-20.
+
+************* Module domain_ssl_monitor_before
+domain_ssl_monitor_before.py:14:0: C0301: Line too long (104/100) (line-too-long)
+domain_ssl_monitor_before.py:19:0: C0301: Line too long (105/100) (line-too-long)
+domain_ssl_monitor_before.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
+domain_ssl_monitor_before.py:11:0: C0103: Function name "evaluateDomain" doesn't conform to snake_case naming style (invalid-name)
+domain_ssl_monitor_before.py:11:27: C0103: Argument name "domainExpiry" doesn't conform to snake_case naming style (invalid-name)
+domain_ssl_monitor_before.py:11:41: C0103: Argument name "certificateExpiry" doesn't conform to snake_case naming style (invalid-name)
+domain_ssl_monitor_before.py:11:60: C0103: Argument name "alertHistory" doesn't conform to snake_case naming style (invalid-name)
+domain_ssl_monitor_before.py:11:0: W0102: Dangerous default value [] as argument (dangerous-default-value)
+domain_ssl_monitor_before.py:21:11: W0718: Catching too general exception Exception (broad-exception-caught)
+domain_ssl_monitor_before.py:26:0: C0103: Function name "fetchRdapRecord" doesn't conform to snake_case naming style (invalid-name)
+domain_ssl_monitor_before.py:28:15: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+domain_ssl_monitor_before.py:32:0: C0103: Function name "createReport" doesn't conform to snake_case naming style (invalid-name)
+domain_ssl_monitor_before.py:32:17: C0103: Argument name "alertHistory" doesn't conform to snake_case naming style (invalid-name)
+domain_ssl_monitor_before.py:40:0: C0116: Missing function or method docstring (missing-function-docstring)
+domain_ssl_monitor_before.py:5:0: C0411: standard import "tempfile" should be placed before third party import "requests" (wrong-import-order)
+domain_ssl_monitor_before.py:6:0: C0411: standard import "datetime.date" should be placed before third party import "requests" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 5.43/10
